@@ -1,7 +1,6 @@
 # 9b_webshop oldala
 
-Lorem ipsum dolor sit amet.
-{% include button.html url="https://pepe1125.github.io/9b_web/1oldal.html" %}
+[Click me](https://pepe1125.github.io/9b_web/1oldal.html){: .btn}
 
 ## Készítők:
 
