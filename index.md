@@ -18,4 +18,4 @@ Kende19	|dudask@kkszki.hu
 Botiweb|	babinszkibotond154@gmail.com
 
 
-#sziasztok
+# sziasztok
