@@ -8,7 +8,7 @@ vilm2007	|biharivilmo2007@gmail.com
 VBenedek2006	|vargabenedek77@gmail.com
 Patrik623	|kisspatrik628@gmail.com
 MezoGergo15	|mezog@kkszki.hu
-XRX265hun	|otvosb@kkszki.hu
+XRX265hun	| otvos.xrx@gmail.com
 benihun995163	|papsomosbenjamin@gmail.com
 Ropppi	|kaffkarobi@gmail.com
 hutkadani000	|hutkadana05@gmail.com
