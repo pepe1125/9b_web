@@ -1,1 +1,1 @@
-Ide kerüljenek szépen rendezve a webshop kép fájlok!!!
+# Ide kerüljenek szépen rendezve a webshop kép fájlok!!!
