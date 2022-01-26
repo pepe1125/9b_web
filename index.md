@@ -16,3 +16,6 @@ Gergely9|	handarigergo@gmail.com
 Botko1002	|batiziboti@gmail.com
 Kende19	|dudask@kkszki.hu
 Botiweb|	babinszkibotond154@gmail.com
+
+
+#sziasztok
