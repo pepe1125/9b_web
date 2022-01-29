@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://github.com/pepe1125/9b_web/blob/main/img/brick-walls-neon-light-background-rays-glow-211376300.jpg?raw=true);
+    background-size: 1450px;
+    background-repeat: no-repeat;
+   
+}
+.container{
+
+    height: max-content
+;
+    width: max-content;
+    
+    float: left;
+}
+ .box1{
+
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 45px;
+    transition: 1s;
+ }
+ 
+ .box2{
+
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 80px 80px 150px;
+    transition: 1s;
+ }
+
+ .box3{
+
+   background-color: rgb(255, 0, 34);
+   width: 200px;
+   height: 200px;
+   float: left;
+   margin: 170px 80px 80px 150px;
+   transition: 1s;
+}
+
+
+ .box1:hover{
+
+    background-color: orange;
+    transform: scale(1.2);
+    border-radius: 100px;
+ }
+ .box2:hover{
+
+    background-color: orange;
+    transform: scale(1.2);
+    border-radius: 100px;
+ }
+
+ .box3:hover{
+
+   background-color: orange;
+   transform: scale(1.2);
+   border-radius: 100px;
+}
+
+
+ 
