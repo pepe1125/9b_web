@@ -1,8 +1,6 @@
 body{
     background-image: url(https://github.com/pepe1125/9b_web/blob/main/img/brick-walls-neon-light-background-rays-glow-211376300.jpg?raw=true);
-    background-size: 1450px;
-    background-repeat: no-repeat;
-   
+    background-size: cover;  
 }
 .container{
 
