@@ -1,18 +1,13 @@
 body{
-    background-image: url(https://github.com/pepe1125/9b_web/blob/main/img/brick-walls-neon-light-background-rays-glow-211376300.jpg?raw=true);
-    background-size: cover;  
+    background-image: url(./img/question-mark-2492009.jpg);
+    background-size: cover; 
 }
 .container{
-
-    height: max-content
-;
+    height: max-content;
     width: max-content;
-    
-    float: left;
+    float: center;
 }
  .box1{
-
-    background-color: blue;
     width: 200px;
     height: 200px;
     float: left;
@@ -21,8 +16,6 @@ body{
  }
  
  .box2{
-
-    background-color: blueviolet;
     width: 200px;
     height: 200px;
     float: left;
@@ -31,8 +24,6 @@ body{
  }
 
  .box3{
-
-   background-color: rgb(255, 0, 34);
    width: 200px;
    height: 200px;
    float: left;
@@ -42,23 +33,21 @@ body{
 
 
  .box1:hover{
-
-    background-color: orange;
     transform: scale(1.2);
     border-radius: 100px;
  }
  .box2:hover{
-
-    background-color: orange;
     transform: scale(1.2);
     border-radius: 100px;
  }
 
  .box3:hover{
-
-   background-color: orange;
    transform: scale(1.2);
    border-radius: 100px;
+}
+.szov{
+   color: rgb(53, 228, 91);
+   text-align: center;
 }
 
 
