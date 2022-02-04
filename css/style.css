@@ -7,61 +7,11 @@ body{
    color: rgb(53, 228, 91);
    text-align: center;
 }
-.sidebar {
-   margin: 0;
-   padding: 0;
-   width: 200px;
-   background-color: #2E8B57;
-   position: fixed;
-   height: 100%;
-   overflow: auto;
- }
-
- .sidebar a {
-   display: block;
-   color: black;
-   padding: 3px;
+.sidebar{
+   background-color: burlywood;
+   text-align: center;
    text-decoration: none;
- }
-
- .sidebar a.active {
-   background-color: #008B8B;
-   color: white;
- }
-
- .sidebar a:hover:not(.active) {
-   background-color: #555;
-   color: white;
- }
-
- div.content {
-   margin-left: 200px;
-   padding: 1px 16px;
-   height: 1000px;
- }
-
- @media screen and (max-width: 10000px) {
-   .sidebar {
-     width: 100%;
-     height: auto;
-     position: relative;
-   }
-
-   .sidebar a {
-     float: left;
-   }
-
-   div.content {
-     margin-left: 0;
-   }
- }
-
- @media screen and (max-width: 10000px) {
-   .sidebar a {
-     text-align: center;
-     float: none;
-   }
- }
+}
 
 
  
