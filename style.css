@@ -1,0 +1,17 @@
+body{
+    background-image: url(../img/lightbulb-1875247.png);
+    background-size: cover; 
+    margin: 0%;
+}
+.szov{
+   color: rgb(53, 228, 91);
+   text-align: center;
+}
+.sidebar{
+   background-color: burlywood;
+   text-align: center;
+   text-decoration: none;
+}
+
+
+ 
