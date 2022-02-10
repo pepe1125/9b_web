@@ -1,17 +1,38 @@
 body{
-    background-image: url(../img/lightbulb-1875247.png);
-    background-size: cover; 
-    margin: 0%;
-}
-.szov{
-   color: rgb(53, 228, 91);
-   text-align: center;
-}
-.sidebar{
-   background-color: burlywood;
-   text-align: center;
-   text-decoration: none;
+   background-image: url(https://wallpapercave.com/wp/wp2557933.jpg);
+   background-size: cover; 
+   margin: 0%;
+   font-family: 'Yellowtail', cursive;
 }
 
 
- 
+HTML{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    margin: 30px;
+    transition: 0.5s;
+}
+
+.kép{
+    float: left;
+}
+
+img:hover{
+    transform: scale(1.3);
+}
+
+.content{
+    width: fit-content;
+    margin: auto;
+}
+
+img:hover + h2{
+    font-size: xx-large;
+}
+
+h2{
+    transition: 0.5s;
+}
