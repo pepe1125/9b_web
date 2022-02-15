@@ -37,3 +37,12 @@ img:hover + h2{
 h2{
     transition: 0.5s;
 }
+.fejl{
+    width: 100%;
+    height: 10%;
+    background-color:blue;
+}
+.reg{
+    color: white;
+    text-decoration: none;
+}
