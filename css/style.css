@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 body{
    background-image: url(https://wallpapercave.com/wp/wp2557933.jpg);
    background-size: cover; 
    margin: 0%;
-   font-family: 'Yellowtail', cursive;
 }
-
-
 HTML{
     text-align: center;
 }
@@ -37,12 +33,10 @@ img:hover + h2{
 h2{
     transition: 0.5s;
 }
-.fejl{
+.sidebar{
     width: 100%;
     height: 10%;
-    background-color:blue;
-}
-.reg{
-    color: white;
+    background-color: aquamarine;
     text-decoration: none;
 }
+

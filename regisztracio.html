@@ -6,47 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reg.css">
-    <title>regisztráció</title>
+    <link rel="icon" href="img/kkonzol.png" type="image/x-icon">
+    <title>Regisztráció</title>
 </head>
-
 <body>
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">regisztráció</button>
-    <div id="id01" class="modal">
-        <form class="modal-content animate" action="/action_page.php" method="post">
-            <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close"
-                    title="Close Modal">&times;</span>
-                <img src="img_avatar2.png" alt="Avatar" class="avatar">
-            </div>
-            <div class="container">
-                <label for="uname"><b>Felhasználónév:</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
-
-                <label for="psw"><b>Jelszó:</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-
-                <button type="submit">Login</button>
-                <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-            </div>
-
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'"
-                    class="cancelbtn">Cancel</button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
-        </form>
+    <div class="sidebar">
+        <a href="fo.html">Főoldal</a> |
+        <a href="regisztracio.html">Regisztráció</a>
     </div>
-    <script>
-        var modal = document.getElementById('id01');
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-
+    <div class="be">
+        <h1>Regisztráció</h1>
+        <p>E-mail:</p>
+        <input type='email'>
+        <br>
+        <p>jelszó:</p>
+        <input type='password'>
+        <br>
+        <div class="reg">
+        <a href="fo.html">Regisztráció</a>
+        </div>
+    </div>
 </body>
 
 </html>
