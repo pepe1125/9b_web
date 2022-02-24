@@ -1,25 +1,89 @@
 body{
-  margin: 0%;
-  background-image: url(../img/hatter.jpeg);
-  background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #fff;
+	font-size: 12px;
+  background-image: url(../img/5463473.png);
   background-size: cover;
-}
-.sidebar{
-  background-color:aquamarine;
-  text-align: center;
-  text-decoration: none;
-  height: 10%;
-}
-.reg{
-  text-decoration: none; 
-  border: olive;
-  border-radius: 1%;
-  background-color: azure;
-  width: 5%;
-  text-align: center;
+  background-repeat: no-repeat;
 }
 .be{
-  background-color: bisque;
-  width: 20%;
+	position: absolute;
   text-align: center;
+}
+
+.bejelentkezes{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.bejelentkezes input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.bejelentkezes input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.bejelentkezes input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.nsara{
+    text-decoration: none;
+    color: #FF0000;
+  }
+.lentiresz {
+    padding: 0,2vw;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.reggomb{
+    color: rgb(194, 194, 194);
 }

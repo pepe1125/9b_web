@@ -14,15 +14,15 @@ body,h1,h2,h3,h4,h5,h6 {
     background-size: cover;
   }
   .bgimg-1 {
-    background-image: url('img/hatter.jpeg');
+    background-image: url('../img/hatter.jpeg');
     min-height: 100%;
   }
   .bgimg-2 {
-    background-image: url("img/6917532.png");
+    background-image: url("../img/6917532.png");
     min-height: 400px;
   }
   .bgimg-3 {
-    background-image: url("img/ps/ps_hatterkep.jpg");
+    background-image: url("../img/ps/ps_hatterkep.jpg");
     min-height: 400px;
   }
   .w3-wide {
@@ -51,6 +51,24 @@ body,h1,h2,h3,h4,h5,h6 {
     margin: auto;
     text-align: center;
     font-family: arial;
+  }
+  .Fortnite {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .Fortnite button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
   }
   
   .price {
