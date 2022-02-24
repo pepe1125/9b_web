@@ -2,25 +2,118 @@
 <html lang="hu">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/kkonzol.png" type="image/x-icon">
-    <title>KKonzol-Főoldal</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="test.css">
+  <link rel="icon" href="img/kkonzol.png" type="image/x-icon">
+  <title>KKONZOL</title>
 </head>
 
 <body>
-    <div class="sidebar">
-        <a href="fo.html">Főoldal</a> |
-        <a href="regisztracio.html">Regisztráció</a> |
-        <a href="https://www.instagram.com/kkonzol.shop/" target="blank">Instagram</a> |
-        <a href="https://discord.gg/29FJagQwGk" target="blank">Discord</a>
+
+  <!-- normális navbar -->
+  <div class="w3-top" style="background-color: white;">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button">Főoldal</a>
+      <a href="#rolunk" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>Rólunk</a>
+      <a href="#elerhetosegeink" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>Elérhetőségeink</a>
+      </a>
     </div>
-    <h1 style="color: red;">üdvözöljük a webáruházunkban! Kérjük válasszon az alábbi lehetőségek közül.</h1>
-    <div class="content">
+    <!-- Görgetéskor navbar -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#rolunk" class="w3-bar-item w3-button">Rólunk</a>
+      <a href="#elerhetosegeink" class="w3-bar-item w3-button">Elérhetőségeink</a>
+    </div>
+  </div>
 
+  <!-- felirat -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Üdvözöljük <span
+          class="w3-hide-small">a</span> webáruházunkban!</span>
+    </div>
+  </div>
 
+  <!-- rólunk -->
+  <div class="w3-content w3-container w3-padding-64" id="rolunk">
+    <h3 class="w3-center">Rólunk:</h3>
+    <p class="w3-center"><em>KKONZOL</em></p>
+    <p>Ez a webáruház egy projektmunka céljábol jött létre!</p>
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide"></span>
+      </div>
+    </div>
+
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+          class="fa fa-remove"></i></span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+<!--játékok helye:-->
+<h2>Heti ajánlatunk:</h2>
+<div class="Hello">
+  <img src="jatekok/Hello Neighbor/hello.webp" alt="Hello Neighbor" style="width:100%">
+  <h1>Hello Neighbor</h1>
+  <p class="price">1.726 FT</p>
+  <p><button>Kosárba</button></p>
+</div>
+<div class="FARCRY">
+  <img src="jatekok/FARCRY6/farcry6.jpg" alt="FARCRY6" style="width:100%">
+  <h1>FARCRY 6</h1>
+  <p class="price">29.999 FT</p>
+  <p><button>Kosárba</button></p>
+</div>
+<hr>
+    <!-- ps kép -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide"></span>
+      </div>
+    </div>
+    <!--elérhetőségeink-->
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Miskolc<br>
+            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>+36/20/211-211<br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kkonzol.shop@mail.com<br>
+          </div>
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="password" required name="Jelszó">
+              </div>
+            </div>
+            <button type="submit">
+              <i> Bejelentkezés
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>A tetejére</a>
+      <div class="w3-xlarge w3-section">
+        <i href="https://www.instagram.com/kkonzol.shop/" class="fa fa-instagram w3-hover-opacity" target="blank" ></i>
+      </div>
+      <p>Készítette: <a href="" title="kkonzol" target="_blank" class="w3-hover-text-green">kkonzol</a></p>
+    </footer>
+<script src="main.js"></script>
 </body>
 
 </html>
