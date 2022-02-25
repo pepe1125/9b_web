@@ -1,0 +1,3 @@
+A Hello Neighbor egy lopakodó horror játék, amely arról szól, hogy a szomszéd házába besettenkedve kitaláld, hogy milyen titkokat rejteget a pincében.
+Egy fejlett mesterséges értelemmel szemben kell játszanod, amely minden egyes mozdulatodból tanul. Élvezed a kimászást ablakokon keresztül? Medvecsapda vár rád.
+Menekülni próbálsz? Ellenfeled talál egérutat.
