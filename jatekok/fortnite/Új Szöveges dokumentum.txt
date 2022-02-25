@@ -1,1 +1,17 @@
 ide
+
+A Fortnite Battle Royale egy battle royale játék ahol 100 játékos versenyezik egymás ellen.
+Különböző karaktereket lehet venni a játékbeli pénz a v buck segítségével.
+A játékra jellemző hogy lehet benne építeni és barangolni a pályán.
+A játékosok együtt is tudnak játszani tehát ketten azaz duoba,hárman azaz trioba,és négyen tehát sqadba.
+Ebben a játékban a cross platform is előfordul tehát ha a játékos xbox-on játszik akkor játszhat ps-es és pc-s játékossal is.
+Különböző események szoktak a játékban lenni pl:kess cupok különböző versenyek.
+Seasonokra azaz évszakokra van osztva a játék.
+BAttle past is lehet venni 1000 v buckért ami ingyen karaktereket táncokat fegyverszinezéseket tartalmaz és csákányokat.
+Ezen játék fő témája a tárgyak kiütése csákánnyal.
+Különböző emotok azaz táncok vannak a játékban amiket meg lehet venni az item shopban azaz a boltban.
+A v buckok árai a következők 1000 v buck:2390Ft,2800v buck:5990Ft,5000v buck:9590Ft,13500v buck:23990Ft.
+A játékban különböző napi illetve sima küldetések vannak amiért xp-azaz pontot kapunk.
+Kreatívozni is lehet különböző gyakorló és szórakoztató pályák vannak fent.
+
+Ezeket érdemes tudni erről a játékról.
