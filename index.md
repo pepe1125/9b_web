@@ -1,6 +1,6 @@
 # 9b_webshop oldala
 
-[Click me](https://pepe1125.github.io/9b_web/fo.html)
+[Click me](https://pepe1125.github.io/9b_web/index.html)
 
 ## Készítők:
 
