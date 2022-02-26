@@ -18,10 +18,30 @@
     <div class="re"></div>
 		<br>
 		<div class="bejelentkezes">
-				<input type="text" placeholder="E-mail" name="user"><br>
-				<input type="password" placeholder="Jelszó" name="password"><br>
-				<input type="button" value="Bejelentkezés">
+				<input type="text" placeholder="E-mail" name="user" id="2"><br>
+				<input type="password" placeholder="Jelszó" name="password" id="3"><br>
+				<input type="button" value="Bejelentkezés" onclick="myFunction()"   >
                 <p>Nincs még fiókod? <a class="nsara" href="regisztracio.html">Regisztrálj!</a></p>
+                <h1 id="p01"></h1>
 		</div>
+
+        <script>
+            function myFunction() {
+              const message = document.getElementById("p01");
+              message.innerHTML = "";
+              let x = document.getElementById("2").value;
+              let y = document.getElementById("3").value;
+              try { 
+                if(x == "")  throw "";
+                if(y == "")  throw "";
+                
+              }
+              catch {
+                message.innerHTML = "Tölts ki az összes mezőt ;) ";
+              }
+            }
+            </script>
+            
+
 </body>
 </html>
