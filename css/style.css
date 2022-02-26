@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
+  font-family: 'Shippori Antique B1', sans-serif;
   }
   body,html {
     height: 100%;
@@ -106,4 +107,13 @@ body,h1,h2,h3,h4,h5,h6 {
   }
 .heti{
   text-align: center;
+}
+.backbutton{
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  margin: 2px;
+}
+.leiras{
+  float: right;
 }
