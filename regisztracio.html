@@ -10,6 +10,21 @@
     <title>KKONZOL</title>
 </head>
 <body>
+  <script>
+    function belep(username, password) {
+    localStorage.setItem(username,password)
+    if (username == "") {
+        alert("Lehet, hogy helytelenül adtad meg a felhasználónevedet vagy a jelszavadat.")
+    } else {
+        if (password == "") {
+            alert("Lehet, hogy helytelenül adtad meg a felhasználónevedet vagy a jelszavadat.")
+        } else {
+            alert("Üdvözöljük: " + username + "")
+            window.open('index.html' , '_self')
+        }
+    }
+}
+  </script>
 <div class="regisztlogo">
     <a href="index.html">
     <img src="kkonzol-logok/KKONZOL-logos_white.png" alt="" width="45%">
@@ -18,30 +33,10 @@
     <div class="re"></div>
 		<br>
 		<div class="bejelentkezes">
-				<input type="text" placeholder="E-mail" name="user" id="2"><br>
-				<input type="password" placeholder="Jelszó" name="password" id="3"><br>
-				<input type="button" value="Bejelentkezés" onclick="myFunction()"   >
+				<input type="text" placeholder="E-mail" required name="username" id="nev" ><br>
+				<input type="password" placeholder="Jelszó" required name="password" id="jelszo" ><br>
+        <input class="belepesbutton" type="button" value="Bejelentkezés" onclick="belep(nev.value,jelszo.value)"   >
                 <p>Nincs még fiókod? <a class="nsara" href="regisztracio.html">Regisztrálj!</a></p>
-                <h1 id="p01"></h1>
 		</div>
-
-        <script>
-            function myFunction() {
-              const message = document.getElementById("p01");
-              message.innerHTML = "";
-              let x = document.getElementById("2").value;
-              let y = document.getElementById("3").value;
-              try { 
-                if(x == "")  throw "";
-                if(y == "")  throw "";
-                
-              }
-              catch {
-                message.innerHTML = "Tölts ki az összes mezőt ;) ";
-              }
-            }
-            </script>
-            
-
 </body>
 </html>
