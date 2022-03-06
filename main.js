@@ -11,3 +11,4 @@ function belep(username, password) {
         }
     }
 }
+document.getElementById('kiir').innerHTML= + usarname+

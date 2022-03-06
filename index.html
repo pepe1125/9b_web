@@ -12,7 +12,7 @@
   <title>KKONZOL</title>
 </head>
 
-<body>
+<body onload="document.getElementById('kiir').innerHTML= usarname">
   <script src="main.js"></script>
   <!-- normális navbar -->
   <div class="w3-top" style="background-color: white;">
@@ -26,6 +26,7 @@
         <a href="#rolunk" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>Rólunk</a>
         <a href="regisztracio.html" class="w3-bar-item w3-button">Bejelentkezés</a>
         <a href="" class="w3-bar-item w3-button">Online játékok</a>
+        <p id="kiir"></p>
     </div>
     <!-- Görgetéskor navbar -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
@@ -33,10 +34,12 @@
       <a href="regisztracio.html" class="w3-bar-item w3-button">Bejelentkezés</a>
       <i href="kosar.html" class="fa fa-shopping-cart">kosár</i>
       <a href="online/online-jatekok.html" class="w3-bar-item w3-button">Online játékok</a>
+      <p id="kiir"></p>
     </div>
   </div>
   <!-- felirat -->
   <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <h1 id="kiir"></h1>
     <div class="w3-display-middle" style="white-space:nowrap;">
       <div style="text-align: center;">
         <img src="kkonzol-logok/KKONZOL-logos_white.png" alt="" width="80%">
