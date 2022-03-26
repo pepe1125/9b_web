@@ -168,3 +168,12 @@ text-align: center;
  transition: 2s;
  background-color: #000;
 }
+.box5{
+ width: 250px;
+ height: 200px;
+ float: left;
+ margin: 5% 5% 5% 5%  ;
+ transition: 2s;
+ background-color: #000;
+}
+
