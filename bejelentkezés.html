@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reg.css">
+    <link rel="icon" href="kkonzol-logok/KKONZOL-logos_white.png" type="image/x-icon">
+    <title>KKONZOL</title>
+</head>
+<body>
+  <script>
+    function belep(username, password) {
+    localStorage.setItem(username,password)
+    if (username == "") {
+        alert("Lehet, hogy helytelenül adtad meg a felhasználónevedet vagy a jelszavadat.")
+    } else {
+        if (password == "") {
+            alert("Lehet, hogy helytelenül adtad meg a felhasználónevedet vagy a jelszavadat.")
+        } else {
+            alert("Üdvözöljük: " + username + "")
+            window.open('index.html' , '_self')
+        }
+    }
+}
+  </script>
+<div class="regisztlogo">
+    <a href="index.html">
+    <img src="kkonzol-logok/KKONZOL-logos_white.png" alt="" width="45%">
+    </a>
+</div>
+    <div class="re"></div>
+		<br>
+		<div class="bejelentkezes">
+				<input type="text" placeholder="E-mail" required name="username" id="nev" ><br>
+				<input type="password" placeholder="Jelszó" required name="password" id="jelszo" ><br>
+        <input class="belepesbutton" type="button" value="Bejelentkezés" onclick="belep(nev.value,jelszo.value)"   >
+                <p>Nincs még fiókod? <a class="nsara" href="regisztracio.html">Regisztrálj!</a></p>
+		</div>
+</body>
+</html>
