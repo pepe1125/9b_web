@@ -135,48 +135,15 @@ background-size: cover;
 text-align: center;
  width: 1900px;
 height: 400px;
-
 margin-left: auto;
 margin-right: auto;
 }
-.box1{
+.box{
   width: 250px;
   height: 200px;
   float: left;
   margin: 5% 5% 5% 8% ;
   transition: 2s;
   background-color: #000;
-}
-.box2{
-  width: 250px;
-  height: 200px;
-  float: left;
-  margin: 5% 5% 5% 5%  ;
-  transition: 2s;
-  background-color: #000;
-}
-.box3{
- width: 250px;
- height: 200px;
- float: left;
- margin: 5% 5% 5% 5%  ;
- transition: 2s;
- background-color: #000;
-}
-.box4{
- width: 250px;
- height: 200px;
- float: left;
- margin: 5% 5% 5% 5%  ;
- transition: 2s;
- background-color: #000;
-}
-.box5{
- width: 250px;
- height: 200px;
- float: left;
- margin: 5% 5% 5% 5%  ;
- transition: 2s;
- background-color: #000;
 }
 
