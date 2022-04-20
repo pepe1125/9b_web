@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Shippori Antique B1', sans-serif;
+  }
+  body,html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    
+  }
+  .bgimg-1,.bgimg-2,.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-1 {
+    background-image: url('../img/hatter.jpeg');
+    min-height: 100%;
+  }
+  .bgimg-3 {
+    background-image: url("../img/ps/ps_hatterkep.jpg");
+    min-height: 400px;
+  }
+  .w3-wide {
+    letter-spacing: 10px;
+  }
+  .w3-hover-opacity {
+    cursor: pointer;
+  }
+  @media only screen and (max-device-width: 1600px) {
+
+    .bgimg-1,.bgimg-2,.bgimg-3 {
+      background-attachment: scroll;
+      min-height: 400px;
+    }
+  }
+.content{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    
+}
+
+.kepek{
+   float: left;
+}
+
+img{
+    border: 5px solid black;
+    border-radius: 5%;
+    width: 250px;
+    height: 200px;
+    margin:20px;
+   
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+.FARCRY {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+.FARCRY button {
+    border-radius: right;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .FARCRY button:hover {
+    opacity: 1.0;
+  }
+  .heti{
+    text-align: center;
+  }
+  .backbutton{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    margin: 2px;
+  }
+  .leiras{
+    float: right;
+  }
+  .osszesjatekdiv{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+  }
+  .jatekbutton{
+    border: none;
+    background-color: white;
+    color: #000;
+    text-align: center;
+  }
