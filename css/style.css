@@ -35,70 +35,73 @@ body,h1,h2,h3,h4,h5,h6 {
       min-height: 400px;
     }
   }
- .container{
- background-image: url(https://pixabay.com/get/g7527a48356c1b248fdf276443972ab8bcd39a9ecbc7b1c2daaa5d34dac64e2b54e10e28448a590988a4d1a228fda0336b914ab400f10b3f61cd26587478e9130d9f51689b11842733a94b49881e8ecdd_1920.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-text-align: center;
- width: 1900px;
-height: 400px;
-margin-left: auto;
-margin-right: auto;
+.content{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    
 }
-.kosar{
-    text-align: right;
-  }
-  
-  .FARCRY {
+
+.kepek{
+   float: left;
+}
+
+img{
+    border: 5px solid black;
+    border-radius: 5%;
+    width: 250px;
+    height: 200px;
+    margin:20px;
+   
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+.FARCRY {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
   }
-  .price {
-    color: grey;
-    font-size: 22px;
-  }
-  .FARCRY button {
-    border: none;
+.FARCRY button {
+    border-radius: right;
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
   }
-  
   .FARCRY button:hover {
-    opacity: 0.7;
+    opacity: 1.0;
   }
- 
-.heti{
-  text-align: center;
-}
-.backbutton{
-  background-color: white;
-  color: black;
-  border: 1px solid;
-  margin: 2px;
-}
-.leiras{
-  float: right;
-}
-.osszesjatekdiv{
-  height: auto;
-  width: 100%;
-  background-color: aqua;
-}
-.jatekbutton{
-  border: none;
-  background-color: white;
-  color: #000;
-  text-align: center;
-}
-
-
-
+  .heti{
+    text-align: center;
+  }
+  .backbutton{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    margin: 2px;
+  }
+  .leiras{
+    float: right;
+  }
+  .osszesjatekdiv{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+  }
+  .jatekbutton{
+    border: none;
+    background-color: white;
+    color: #000;
+    text-align: center;
+  }
