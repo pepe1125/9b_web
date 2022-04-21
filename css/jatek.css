@@ -143,7 +143,14 @@ margin-right: auto;
   width: 250px;
   height: 200px;
   float: left;
-  margin: 5px 5px 5px 8px ;
+  margin: 5% 5% 5% 5% ;
   transition: 2s;
-  background-color: #000;
+}
+#db{
+  width: 50px;
+}
+#kosarba{
+  margin-top: 10px;
+  background-color: none;
+  border: none;
 }

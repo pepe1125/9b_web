@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="kkonzol-logok/KKONZOL-logos_white.png" type="image/x-icon">
+    <title>KKONZOL</title>
 </head>
-<body>
-    
+
+<body style="background-image: url(/img/ps/ps_hatterkep.jpg); background-repeat:repeat; background-size: cover;">
+    <script src="main.js"></script>
+    <!-- normális navbar -->
+    <div class="w3-top" style="background-color: white;">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+                <a href="kosar.html" id="jobb"><i class="fa fa-shopping-cart"></i>
+                </a>
+                <a href="#home" class="w3-bar-item w3-button">Főoldal</a>
+                <a href="#rolunk" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>Rólunk</a>
+                <a href="bejelentkezes.html" class="w3-bar-item w3-button">Bejelentkezés</a>
+                <p id="kiir"></p>
+        </div>
+        <!-- Görgetéskor navbar -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#rolunk" class="w3-bar-item w3-button">Rólunk</a>
+            <a href="regisztracio.html" class="w3-bar-item w3-button">Bejelentkezés</a>
+            <i href="kosar.html" class="fa fa-shopping-cart">kosár</i>
+            <p id="kiir"></p>
+        </div>
+    </div>
+    <div class="eg" style="background-color: rgba(169, 169, 169, 0.459);margin: 5%; text-align: center;">
+        <form action="javascript:void(0)">
+            <h2>Adatok:</h2>
+            <p>Név:</p>
+            <input id="kos" type="text" placeholder="Kandó Kálmán" required>
+            <p>E-mail:</p>
+            <input id="kos" type="email" placeholder="kandok@kkszki.hu" required>
+            <p>Tel:</p>
+            <input id="kos" type="tel" placeholder="+36308813082" required>
+            <p>Város:</p>
+            <input id="kos" type="text" placeholder="Miskolc" required>
+            <p>Utca:</p>
+            <input id="kos" type="text" placeholder="Palóczy utca" required>
+            <p>Szám:</p>
+            <input id="kos" type="text" placeholder="3" required>
+            <p>Kártyabirtokos neve:</p>
+            <input id="kos" type="text" placeholder="Kandó Kálmán" required>
+            <p>Kártyaszám:</p>
+            <input id="kos" type="text" placeholder="0000-0000-0000-0000" required>
+            <p>Lejárati hó.</p>
+            <input id="kos" type="text" placeholder="02" required >
+            <p>Lajárti év</p>
+            <input id="kos" type="text" placeholder="2025" required>
+            <p>CVV</p>
+            <input  id="kos" type="text" placeholder="123" required> <br>
+            <input type="checkbox" required>Elfogadom az ÁSZF <br>
+            <input type="submit" onclick="fizetes()">
+        </form>
+        <div class="visa">
+        <p>Elfogadott fizetési lehetőségek:</p>
+        <img src="visa.png" alt="" width="10%"> 
+        </div>
+
+    </div>
+
 </body>
+
 </html>

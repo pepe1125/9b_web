@@ -147,3 +147,24 @@ margin-right: auto;
   transition: 2s;
   background-color: #000;
 }
+#kos{
+  width: 25%;
+  transition: 2s;
+}
+#kos:hover{
+  transform: scale(1.3);
+  background-color: rgb(39, 83, 163);
+  animation: mymove 20s infinite;
+  border-radius: 10px;
+}
+@keyframes mymove {
+  from {background-color: rgb(50, 128, 173);}
+  to {background-color: rgb(44, 218, 82);}
+}
+#bek{
+  color: #000;
+}
+.visa{
+  text-align: left;
+}
+

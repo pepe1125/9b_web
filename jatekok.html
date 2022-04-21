@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jatek.css">
     <link rel="icon" href="kkonzol-logok/KKONZOL-logos_white.png" type="image/x-icon">
     <title>KKONZOL</title>
+    <script src="main.js"></script>
 </head>
 
 <body>
-    <script src="main.js"></script>
+
     <!-- normális navbar -->
     <div class="w3-top" style="background-color: white;">
         <div class="w3-bar" id="myNavbar">
@@ -36,61 +37,85 @@
     </div>
     <br>
     <div class="container">
-        <!--farcry-->
+
         <div class="kepek">
-            <div class="FARCRY">
-                <a href="jatek-test.html">
-                    <img src="jatekok/FARCRY6/farcry6.jpg" alt="" style="width:100%">
-                </a>
-                <h2>FARCRY 6</h2>
-                <p class="price">Leárazás: 19.999 FT</p>
-                <p><button>Kosárba</button></p>
-            </div>
+            <img src="/jatekok/amoung us/amoung.webp" alt="" width="100%">
+                <p>Among us</p>
+                <button id="kosarba" onclick="kosarba('termek1')">Kosárba</button>
         </div>
-        <!--forza-->
         <div class="kepek">
-            <div class="FARCRY">
-                 <a href="jatekok/Forza Horizon 5/jatek-test.html">
-                    <img src="jatekok/Forza Horizon 5/forza.jpg" alt="" style="width:100%">
-                </a>
-                <h2>Forza Horizon</h2>
-                <p class="price">23.499 FT</p>
-                <p><button>Kosárba</button></p>
-            </div>
+            <img src="/jatekok/ARK/ark.webp" alt="" width="100%">
+            <p>ARK</p>
+            <button id="kosarba" onclick="kosarba('termek2')">Kosárba</button>
         </div>
-        <!--gta-->
         <div class="kepek">
-            <div class="FARCRY">
-                <a href="jatekok/GTAV/jatek-test.html">
-                    <img src="jatekok/GTAV/gtak.webp" alt="" style="width:100%">
-                </a>
-                <h2>GTA V</h2>
-                <p class="price">9.899 FT</p>
-                <p><button>Kosárba</button></p>
-            </div>
+            <img src="/jatekok/FARCRY6/farcry6.jpg"alt="" width="100%">
+            <p>FARCRY 6</p>
+            <button id="kosarba" onclick="kosarba('termek3')">Kosárba</button>
         </div>
-        <!--hello neighbor-->
         <div class="kepek">
-            <div class="FARCRY">
-                <a href="jatekok/Hello Neighbor/jatek-test.html">
-                    <img src="jatekok/Hello Neighbor/hello.webp" alt="" style="width:100%">
-                </a>
-                <h2>Hello Neighbor</h2>
-                <p class="price">2.999 FT</p>
-                <p><button>Kosárba</button></p>
-            </div>
-         <!--Last of Us-->
-         <div class="kepek">
-            <div class="FARCRY">
-                <a href="jatekok/The Last of Us/jatek-test.html">
-                    <img src="jatekok/The Last of Us/last.jpg" alt="" style="width: 100%" >
-                </a>
-                <h2>The Last of Us Part 2</h2>
-                <p class="price">7.000 FT</p>
-                <p><button>Kosárba</button></p>
-            </div>  
+            <img src="/jatekok/FIFA22/fifa.webp" alt="" width="100%">
+            <p>FIFA 22</p>
+            <button id="kosarba" onclick="kosarba('termek4')">Kosárba</button>
         </div>
+        <div class="kepek">
+            <img src="/jatekok/fortnite/kepe.jpg" alt="" width="100%" height="125%">
+            <p>Fortnite</p>
+            <button id="kosarba" onclick="kosarba('termek5')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/Forza Horizon 5/forza.jpg" alt="" width="100%">
+            <p>Forza</p>
+            <button id="kosarba" onclick="kosarba('termek6')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/GTAV/gtak.webp" alt="" width="100%">
+            <p>GTAV</p>
+            <button id="kosarba" onclick="kosarba('termek7')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/Hello Neighbor/hello.webp" alt="" width="100%">
+            <p>Hallo</p>
+            <button id="kosarba" onclick="kosarba('termek8')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/Minecraft/mine.webp" alt="" width="100%">
+            <p>Minecraft</p>
+            <button id="kosarba" onclick="kosarba('termek9')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/PUBG/pubg.jpg" alt="" width="100%" height="124%">
+            <p>PUBG</p>
+            <button id="kosarba" onclick="kosarba('termek10')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/R6/r6.jpg" alt="" width="100%" height="124%">
+            <p>R6</p>
+            <button id="kosarba" onclick="kosarba('termek11')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/Resident Evil/evil.webp" alt="" width="100%">
+            <p>Resident</p>
+            <button id="kosarba" onclick="kosarba('termek12')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/Sniper Elit 4/Sniper_Elite_4_cover_art.jpg" alt="" width="100%" height="140%">
+            <p>GTAV</p>
+            <button id="kosarba" onclick="kosarba('termek13')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/The Last of Us/Video_Game_Cover_-_The_Last_of_Us.jpg" alt="" width="95%" height="140%">
+            <p>GTAV</p>
+            <button id="kosarba" onclick="kosarba('termek14')">Kosárba</button>
+        </div>
+        <div class="kepek">
+            <img src="/jatekok/Subnautica/606793374.unknown-worlds-entertainment-subnautica-pc.jpg" alt="" width="100%" height="140%">
+            <p>GTAV</p>
+            <button id="kosarba" onclick="kosarba('termek15')">Kosárba</button>
+        </div>
+
     </div>
+
 </body>
 
 </html>
