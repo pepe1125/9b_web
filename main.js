@@ -1,7 +1,7 @@
 var termek1 = 1000
-var termek2 = 2999
-var termek3 = 19999
-var termek4 = 21999
+var termek2 = 2600
+var termek3 = 8900
+var termek4 = 7000
 
 function kosarba(termek){
     db=Number(prompt('Add meg mennyit szeretnél?'))
