@@ -6,6 +6,13 @@ var termek5 = 3990
 var termek6 = 7000
 var termek7 = 3500
 var termek8 = 9999
+var termek9 = 11000
+var termek10 = 1600
+var termek11 = 3000
+var termek12 = 15000
+var termek13 = 3400
+var termek14 = 10000
+var termek15 = 8700
 
 function kosarba(termek){
     db=Number(prompt('Add meg mennyit szeretnél?'))
