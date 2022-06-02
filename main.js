@@ -24,6 +24,7 @@ function fizetes(){
 }
 function torles() {
     localStorage.clear()
+    window.location.reload();
 }
 function kosar() {
    var list = "<tr><th style=\"margin:auto\">Termék neve: </th><th>darabszáma: </th><th>Ára: </th></tr>\n"
@@ -36,7 +37,7 @@ function kosar() {
     for (var i = 0; i <= localStorage.length - 1; i++) {
         key = localStorage.key(i);
         darab = parseInt(localStorage.getItem(key));
-        list += "<tr><td>" + key + "</td><td>" + "<button style=\"width:100%\" onclick='ModifyItem(\"" + key + "\", " + "prompt(\"Mennyi legyen?\")" + ")'>" + darab + "</button>" + "</td>" + "</td><td>" + (window[key] * darab) + " Ft" + "</td><td>" + "<button style=\"width:100%; background-color:red\" onclick='RemoveItem(\"" + key + "\")'>X</button>" + "</td></tr>";
+        list += "<tr><td>" + key + "</td><td>" + "<button style=\"width:100%\" onclick='ModifyItem(\"" + key + "\", " + "prompt(\"Mennyi legyen?\")" + ")'>" + darab + "</button>" + "</td>" + "</td><td>" + (window[key] * darab) + " Ft" + "</td><td>"  + "</td></tr>";
         ossz += window[key] * darab;
     }
 
